@@ -5,6 +5,10 @@ require("themery").setup({
 		  colorscheme = "adwaita",
 	  },
 	  {
+		  name = "Falcon",
+		  colorscheme = "falcon",
+	  },
+	  {
 		  name = "Gruvbox",
 		  colorscheme = "gruvbox",
 	  },
@@ -15,6 +19,10 @@ require("themery").setup({
 	  {
 		  name = "Oxocarbon",
 		  colorscheme = "oxocarbon",
+	  },
+	  {
+		  name = "Neon",
+		  colorscheme = "neon",
 	  },
 	  {
 		  name = "Retrobox",
