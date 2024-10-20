@@ -9,6 +9,7 @@ vim.keymap.set('n', "<leader>c", ":LazyGit<CR>")
 vim.keymap.set('n', "<leader>t", ":Themery<CR>")
 vim.keymap.set('n', "<leader>r", ":TagbarToggle<CR>")
 vim.keymap.set('n', "<leader>d", ":TagbarClose<CR>")
+vim.keymap.set('n', "<leader>v", ":set virtualedit=all<CR>")
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
