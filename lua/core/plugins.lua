@@ -144,6 +144,7 @@ return require('packer').startup(function(use)
 		tag = "*",  -- Recommended, use latest release instead of latest commit
 		requires = {"rcarriga/nvim-notify"}
 	}
+	use "tamton-aquib/mpv.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
