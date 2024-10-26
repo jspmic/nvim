@@ -50,8 +50,8 @@ lspconfig.asm_lsp.setup {
 	filetypes = {"asm", "s"},
 	root_dir = lspconfig.util.root_pattern(".git", vim.fn.getcwd()),
 }
--- lspconfig.dcm.setup {
--- 	on_attach = on_attach,
--- 	filetypes = {"dart"},
--- 	root_dir = lspconfig.util.root_pattern(".git", vim.fn.getcwd()),
--- }
+lspconfig.dartls.setup {
+	on_attach = on_attach,
+	filetypes = {"dart"},
+	root_dir = lspconfig.util.root_pattern(".git", vim.fn.getcwd()),
+}
