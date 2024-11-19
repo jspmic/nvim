@@ -4,6 +4,11 @@ require('nvim-toggler').setup({
 		['security'] = 'insecurity',
 		['remove'] = 'add',
 		['big'] = 'skinny',
+		['=='] = '!=',
+		['>='] = '<',
+		['<='] = '>',
+		['=='] = '!=',
+		['break'] = 'continue',
 		['beautiful'] = 'ugly'
 	}
 })
