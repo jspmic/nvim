@@ -5,8 +5,8 @@ require("themery").setup({
 		  colorscheme = "adwaita",
 	  },
 	  {
-		  name = "Falcon",
-		  colorscheme = "falcon",
+		  name = "Blue Moon",
+		  colorscheme = "blue-moon",
 	  },
 	  {
 		  name = "Gruvbox",
