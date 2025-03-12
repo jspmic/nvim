@@ -146,6 +146,10 @@ return require('packer').startup(function(use)
 	}
 	use "tamton-aquib/mpv.nvim"
 	use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
+	use {
+		"winston0410/range-highlight.nvim",
+		requires = {'winston0410/cmd-parser.nvim'},
+	}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
