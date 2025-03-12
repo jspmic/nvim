@@ -124,6 +124,10 @@ require('pckr').add{
 			require("twilight").setup()
 		end
 	};
+	{
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	};
 
 	-- Others
 
