@@ -55,3 +55,14 @@ lspconfig.dartls.setup {
 	filetypes = {"dart"},
 	root_dir = lspconfig.util.root_pattern(".git", vim.fn.getcwd()),
 }
+
+lspconfig.jdtls.setup {
+	on_attach = on_attach,
+	filetypes = {"java"},
+}
+
+lspconfig.kotlin_language_server.setup {
+	on_attach = on_attach,
+	filetypes = {"kt"},
+	-- root_dir = lspconfig.util.root_pattern(".git", vim.fn.getcwd()),
+}
