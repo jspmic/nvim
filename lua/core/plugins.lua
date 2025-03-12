@@ -46,6 +46,7 @@ require('pckr').add{
 	"hrsh7th/cmp-nvim-lsp";
 
 	-- Colorschemes and related
+	'marko-cerovac/material.nvim';
 	"sontungexpt/witch";
 	"sainnhe/sonokai";
 	"Mofiqul/adwaita.nvim";
