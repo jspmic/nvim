@@ -166,4 +166,11 @@ require('pckr').add{
 		"winston0410/range-highlight.nvim",
 		requires = {'winston0410/cmd-parser.nvim'}
 	};
+	{
+	 "csessh/aoc.nvim",
+    requires = {"nvim-lua/plenary.nvim"},
+	config = function()
+		require("aoc").setup()
+	end,
+	};
 }
