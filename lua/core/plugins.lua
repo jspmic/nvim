@@ -179,4 +179,13 @@ require('pckr').add{
 	{
 		"RRethy/base16-nvim"
 	};
+
+	{
+		"iamcco/markdown-preview.nvim",
+		build = function() vim.fn["mkdp#util#install"]() end,
+		ft = { "markdown" },
+		config = function()
+		  vim.g.mkdp_filetypes = { "markdown" }
+		end,
+	};
 }
