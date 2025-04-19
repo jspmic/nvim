@@ -13,6 +13,10 @@ require("themery").setup({
 		  colorscheme = "gruvbox",
 	  },
 	  {
+		  name = "Hybrid",
+		  colorscheme = "nvim-hybrid",
+	  },
+	  {
 		  name = "Material",
 		  colorscheme = "material",
 	  },
