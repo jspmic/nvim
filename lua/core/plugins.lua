@@ -176,4 +176,7 @@ require('pckr').add{
 	{
 		'PHSix/nvim-hybrid'
 	};
+	{
+		"RRethy/base16-nvim"
+	};
 }
