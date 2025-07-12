@@ -188,4 +188,24 @@ require('pckr').add{
 		  vim.g.mkdp_filetypes = { "markdown" }
 		end,
 	};
+	{
+		"allaman/emoji.nvim",
+		ft = "markdown",
+	  	dependencies = {
+	  	  "ibhagwan/fzf-lua",
+	  	},
+	  	opts = {
+	  	  enable_cmp_integration = true,
+	  	  plugin_path = vim.fn.expand("$HOME/plugins/"),
+	  	},
+	  	config = function(_, opts)
+	  	  require("emoji").setup(opts)
+	  	  -- Optional Telescope integration
+	  	  local ts = require("telescope").load_extension("emoji")
+	  	  vim.keymap.set("n", "<leader>m", ts.emoji, { desc = "[S]earch [E]moji" })
+	  	end,
+	};
+	{
+		"mluders/comfy-line-numbers.nvim"
+	};
 }
