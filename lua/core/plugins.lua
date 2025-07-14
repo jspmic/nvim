@@ -73,7 +73,6 @@ require('pckr').add{
 		requires = { 'nvim-treesitter/nvim-treesitter', opt = true },
 	};
 	"ellisonleao/gruvbox.nvim";
-	"ellisonleao/glow.nvim";
 
 	-- Tree file plugin
 	"nvim-tree/nvim-tree.lua";
